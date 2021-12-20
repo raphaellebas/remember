@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bienvenue sur le site de photographie de bébés vous pouvez prendre rendez-vous avec nous.">
+    <meta name="keywords" content="Photographie, bébés, remember, souvenir,grossesse">
+    <meta name="author" content="Raphaël lebas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/raphaellebas/remember/Origin/assets/img/baby.ico">
+    <title>Remember Me contacter</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="studio.html">Le Studio</a></li>
+            <li><a href="gallerie.html">Gallerie</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+<div class="contact">
+    <img src="/assets/img/icons/email_icon.png" alt="Icone de la partie Email">
+    <p>Par e-mail : ethan@remember.com</p>
+    <form action="/action-page.php" method="GET">
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" name="lastname" pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" required>
+   
+        <label for="firstname">Prénom</label>
+        <input type="text" id="firstname" name="firstname" pattern="[a-zA-ZÀ-ÿ]{3,25}" title="Veuillez mettre au moins 3 caractères ou plus seulement les lettres sont autorisées" required>
+        
+        <label for="city">Ville de séance</label>
+        <select id="city" name="city" required>
+            <option value="">Ville</option>
+            <option value="lille">Lille</option>
+            <option value="paris">Paris</option>
+            <option value="quimper">Quimper</option>
+            <option value="marseille">Marseille</option>
+            <option value="la-foret-fouesnant">La-Forêt-Fouesnant</option>
+        </select>
+
+        <label for="phone">Numéro de téléphone</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" title="Le format doit être 06 ex: 06 00 00 00 00" required>
+        <small>Format : 06</small>
+        
+        <label for="topic">Sujet</label>
+        <input type="text" id="topic" name="topic" pattern="[a-zA-ZÀ-ÿ-0-9]{3,16}" title="Veuillez mettre au moins 3 caractères ou plus" required>
+   
+        <label for="message">Votre message</label>
+        <input type="text" id="message" name="message" pattern="[a-zA-ZÀ-ÿ-0-9]{3,280}" title="Veuillez mettre au moins 3 caractères ou plus" required>
+   
+       <input type="submit" class="send" value="Envoyer">
+    </form>
+</div>
+
+<div class="myphone">
+    <img src="/assets/img/icons/phone_icon.png" alt="Icone de la partie Téléphone">
+    <p>Contactez-moi par téléphone</p>
+    <p class="number">+33 6 00 00 66</p>
+    <p>Du Lundi au Vendredi de 8h00 à 18h00</p>
+</div>
+
+<div class="network">
+    <img src="/assets/img/icons/share-icon.png" alt="icone de la partie réseaux social">
+    <p>Me suivre</p>
+    <a href="#"><img src="/assets/img/icons/twitter_icon.png" alt="Icone Twitter"></a>
+    <a href="#"><img src="/assets/img/icons/facebook_icon.png" alt="Icone Facebook"></a>
+    <a href="#"><img src="/assets/img/icons/instagram_icon.png" alt="Icone Instagram"></a>
+    <a href="#"><img src="/assets/img/icons/linkedin_icon.png" alt="Icone Linkedin"></a>
+</div>
+    <footer>
+        <ul>
+            <li><a href="contact-me.html">Me contacter</a></li>
+            <li><a href="about-us.html">A propos</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
