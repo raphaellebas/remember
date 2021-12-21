@@ -9,14 +9,14 @@ body{
 }
 /*NavBar*/
 nav{
-    background-color: rgba(104, 104, 104, 0.452);  
+    background-color:rgba(255, 186, 130, 0.788);  
     position: fixed;
     z-index: 9999;
     width: 100vw;
     top: 0;
     left: 0;
     padding: 50px 0;
-    max-width: 100%;    
+    max-width: 100%;       
 }
 
 nav ul {
@@ -32,7 +32,7 @@ nav ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 186, 130); 
+    color: white; 
     padding-left: 16px;
     padding-right: 16px;
     text-transform: uppercase;
@@ -66,7 +66,7 @@ nav.navbar ul li a::after{
     width: 0%;
     content: '.';
     color: transparent;
-    background: #aaa;
+    background: rgb(255, 236, 130);
     height: 1px;
 }
 
@@ -87,6 +87,37 @@ nav.navbar ul li a:hover::after{
     max-width: 100%;
 }
 
+
+
+/*Studio*/
+.img-studio{
+    display: flex;
+    background: url('/assets/img/studio/studio.jpg') fixed no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.img-article{
+    height: 400px;
+    width: 700px;
+}
+.first-article{
+    margin-left: 1%;
+    border: 0.5px rgba(0, 0, 0, 0.514) solid;
+    border-radius: 1vh;
+    max-width: 50vw;
+}
+.first-article h1{
+    padding-left: 50%;
+}
+.first-article p .presentation{
+    margin-left: 1%;
+}
+/*other stuff*/
 .title{
     font-family: 'Courier New', Courier, monospace;
     color: white;
@@ -97,10 +128,9 @@ nav.navbar ul li a:hover::after{
     margin-left: 1vw;
     margin-right: 1vw;
 }
-
 /*Footer*/
 footer{
-    background-color: rgba(104, 104, 104, 0.815);  
+    background-color: rgb(255, 186, 130);  
     position: absolute;
     z-index: 9999;
     width: 100vw;
@@ -122,7 +152,7 @@ footer ul li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 186, 130); 
+    color: white; 
     padding-left: 16px;
     padding-right: 16px;
     text-transform: uppercase;
@@ -155,7 +185,7 @@ footer.tabbar ul li a::after{
     width: 0%;
     content: '.';
     color: transparent;
-    background: #aaa;
+    background: rgb(255, 236, 130);
     height: 1px;
 }
 
