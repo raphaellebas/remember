@@ -1,27 +1,90 @@
 body{
     font-family: 'Imperial Script', cursive;
 }
-.nav{
-    color: rgb(255, 186, 130);  
+
+p{
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    
+}
+nav{
+    background-color: rgba(104, 104, 104, 0.452);  
     position: fixed;
-    width: 100%;
-    top:0;
-    left: 0;    
+    z-index: 9999;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    padding: 50px 0;    
 }
 
-nav li{
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
     list-style-type: none;
-  
-}
-.navbar ul {
-    display: flex;
-    justify-content: center;
-}
-.navbar li a {
     display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 186, 130); 
     padding-left: 16px;
     padding-right: 16px;
-    text-decoration: none;
-    color: rgb(255, 186, 130);
+    text-transform: uppercase;
 }
+
+nav ul li a,
+nav ul li a::after,
+nav ul li a::before{
+    transition: all .5s;
+}
+
+
+
+/*animation*/
+
+nav ul li a:hover{
+    color: rgb(255, 236, 130);
+}
+
+nav.navbar ul li a{
+    position: relative;
+}
+
+nav.navbar ul li a::after{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+nav.navbar ul li a:hover::after{
+    width: 100%;
+}
+
+
+/*index*/
+.home{
+    display: flex;
+    background: url('/assets/img/father-background.jpg') 30%  fixed no-repeat ;
+    background-size: cover;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
 
