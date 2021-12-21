@@ -6,7 +6,7 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-
+/*NavBar*/
 nav{
     background-color: rgba(104, 104, 104, 0.452);  
     position: fixed;
@@ -73,8 +73,74 @@ nav.navbar ul li a:hover::after{
 }
 
 
+/*Footer
+footer{
+    background-color: rgba(104, 104, 104, 0.452);  
+    position: absolute;
+    z-index: 9999;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;    
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+footer ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 186, 130); 
+    padding-left: 16px;
+    padding-right: 16px;
+    text-transform: uppercase;
+}
+
+footer ul li a,
+footer ul li a::after,
+footer ul li a::before{
+    transition: all .5s;
+}
+
+
+
+
+footer ul li a:hover{
+    color: rgb(255, 236, 130);
+}
+
+footer.tabbar ul li a{
+    position: relative;
+}
+
+footer.tabbar ul li a::after{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: #aaa;
+    height: 1px;
+}
+
+footer.tabbar ul li a:hover::after{
+    width: 100%;
+}
+
+*/  
 /*index*/
-.home{
+.img-main{
     display: flex;
     background: url('/assets/img/father-background.jpg') 30%  fixed no-repeat ;
     background-size: cover;
@@ -83,3 +149,7 @@ nav.navbar ul li a:hover::after{
     width: 100vw;
 }
 
+.presentation p {
+    margin-left: 1%;
+    margin-right: 1%;
+}
