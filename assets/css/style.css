@@ -105,17 +105,30 @@ nav.navbar ul li a:hover::after{
     height: 400px;
     width: 700px;
 }
+
+.first-article {
+    margin-top: 11%;
+}
 .first-article{
     margin-left: 1%;
     border: 0.5px rgba(0, 0, 0, 0.514) solid;
     border-radius: 1vh;
     max-width: 50vw;
+    background-color: rgb(216, 216, 216);
 }
 .first-article h1{
     padding-left: 50%;
 }
-.first-article p .presentation{
-    margin-left: 1%;
+.div-article .first-article .presentation{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+
+}
+.img-article{
+    float: right;
+    margin-top: 5%;
+    padding-right: 1vw;
 }
 /*other stuff*/
 .title{
