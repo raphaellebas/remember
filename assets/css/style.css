@@ -78,7 +78,7 @@ nav.navbar ul li a:hover::after{
 /*index*/
 .img-main{
     display: flex;
-    background: url('/assets/img/father-background.jpg')  fixed no-repeat ;
+    background: url('https://github.com/raphaellebas/remember/blob/Origin/assets/img/father-background.jpg?raw=true')  fixed no-repeat ;
     object-fit: cover;
     background-size: cover;
     justify-content: center;
@@ -92,7 +92,7 @@ nav.navbar ul li a:hover::after{
 /*Studio*/
 .img-studio{
     display: flex;
-    background: url('/assets/img/studio/studio.jpg') fixed no-repeat;
+    background: url('https://github.com/raphaellebas/remember/blob/Origin/assets/img/studio/studio.jpg?raw=true') fixed no-repeat;
     object-fit: cover;
     background-size: cover;
     justify-content: center;
